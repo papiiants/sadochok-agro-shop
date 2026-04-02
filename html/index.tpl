@@ -77,13 +77,13 @@
                                     </div>
                                 {/foreach}
                             {/if}
-                            {if $settings->site_email}
-                                <div class="header-contact__item header-contact--email {if !$settings->site_phones} header-contact__item--visible{/if}">
-                                    <a class="d-flex align-items-center header-contact__section" href="mailto:{$settings->site_email|escape}" >
-                                        <span>{$settings->site_email|escape}</span>
-                                    </a>
-                                </div>
-                            {/if}
+<!--                            {if $settings->site_email}-->
+<!--                                <div class="header-contact__item header-contact&#45;&#45;email {if !$settings->site_phones} header-contact__item&#45;&#45;visible{/if}">-->
+<!--                                    <a class="d-flex align-items-center header-contact__section" href="mailto:{$settings->site_email|escape}" >-->
+<!--                                        <span>{$settings->site_email|escape}</span>-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            {/if}-->
                             {if $settings->site_working_hours}
                                 <div class="header-contact__item header-contact--time {if !$settings->site_phones && !$settings->site_email} header-contact__item--visible{/if}">
                                     <div class="d-flex align-items-center header-contact__section">
