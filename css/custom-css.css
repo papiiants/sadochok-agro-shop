@@ -1,3 +1,5 @@
-#comparison {
-  display: none;
+#comparison,
+.comparison_button,
+.product-page__compare {
+  display: none !important;
 }
