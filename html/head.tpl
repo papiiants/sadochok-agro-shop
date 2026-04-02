@@ -38,13 +38,20 @@
             font-style: normal;
         }
         @font-face {
-        font-family: 'Montserrat';
-        font-display: swap;
-        src: local('Montserrat Medium'), local('Montserrat-Medium'),
-        url('{$rootUrl}/design/{$settings->theme}/fonts/montserrat/Montserrat-Medium.woff2') format('woff2'),
-        url('{$rootUrl}/design/{$settings->theme}/fonts/montserrat/Montserrat-Medium.woff') format('woff');
-        font-weight: 500;
-        font-style: normal;
+            font-family: 'Montserrat';
+            font-display: swap;
+            src: local('Montserrat Medium'), local('Montserrat-Medium'),
+            url('{$rootUrl}/design/{$settings->theme}/fonts/montserrat/Montserrat-Medium.woff2') format('woff2'),
+            url('{$rootUrl}/design/{$settings->theme}/fonts/montserrat/Montserrat-Medium.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Alice';
+            font-display: swap;
+            src: url('{$rootUrl}/design/{$settings->theme}/fonts/alice/Alice-Regular.woff2') format('woff2')
+            font-weight: 500;
+            font-style: normal;
         }
     </style>
 
