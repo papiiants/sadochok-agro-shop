@@ -34,6 +34,10 @@ header {
   }
 
   .header__center {
+    .f_row {
+      gap: 10px;
+    }
+
     .header__logo {
       flex: 1 0 230px;
       max-width: 230px;
@@ -50,13 +54,15 @@ header {
 
     .menu_group__list {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
+      flex: 1 0 auto;
       gap: 10px;
 
       li {
         a {
           padding: 20px 5px;
+          font-size: 17px;
         }
       }
     }
