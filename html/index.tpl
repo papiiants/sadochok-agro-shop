@@ -313,22 +313,22 @@
             <div class="container">
                 <div class="f_row flex-column flex-md-row justify-content-center justify-content-md-between align-items-center">
                     {* Payments *}
-                    <div class="f_col-md footer__payments payments">
-                        <ul class="payments__list d-flex justify-content-md-end align-items-center">
-                            {foreach $payment_methods as $payment_method}
-                                {if !$payment_method->image}{continue}{/if}
-                                <li class="d-flex justify-content-center align-items-center payments__item" title="{$payment_method->name|escape}">
-                                    <picture>
-                                        {if $settings->support_webp}
-                                            <source type="image/webp" data-srcset="{$payment_method->image|resize:80:30:false:$config->resized_payments_dir|webp}">
-                                        {/if}
-                                        <source data-srcset="{$payment_method->image|resize:80:30:false:$config->resized_payments_dir}">
-                                        <img class="lazy" data-src="{$payment_method->image|resize:80:30:false:$config->resized_payments_dir}" src="{$rootUrl}/design/{get_theme}/images/xloading.gif" alt="{$payment_method->name|escape}" title="{$payment_method->name|escape}"/>
-                                    </picture>
-                                </li>
-                            {/foreach}
-                        </ul>
-                    </div>
+<!--                    <div class="f_col-md footer__payments payments">-->
+<!--                        <ul class="payments__list d-flex justify-content-md-end align-items-center">-->
+<!--                            {foreach $payment_methods as $payment_method}-->
+<!--                                {if !$payment_method->image}{continue}{/if}-->
+<!--                                <li class="d-flex justify-content-center align-items-center payments__item" title="{$payment_method->name|escape}">-->
+<!--                                    <picture>-->
+<!--                                        {if $settings->support_webp}-->
+<!--                                            <source type="image/webp" data-srcset="{$payment_method->image|resize:80:30:false:$config->resized_payments_dir|webp}">-->
+<!--                                        {/if}-->
+<!--                                        <source data-srcset="{$payment_method->image|resize:80:30:false:$config->resized_payments_dir}">-->
+<!--                                        <img class="lazy" data-src="{$payment_method->image|resize:80:30:false:$config->resized_payments_dir}" src="{$rootUrl}/design/{get_theme}/images/xloading.gif" alt="{$payment_method->name|escape}" title="{$payment_method->name|escape}"/>-->
+<!--                                    </picture>-->
+<!--                                </li>-->
+<!--                            {/foreach}-->
+<!--                        </ul>-->
+<!--                    </div>-->
                     {* Copyright *}
                     <div class="f_col-md flex-md-first d-flex align-items-center copyright">
                         <div class="d-flex align-items-center">
