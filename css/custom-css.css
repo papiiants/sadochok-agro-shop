@@ -75,7 +75,8 @@ header {
       gap: 10px;
 
       .header_informers__item {
-        max-width: 44px;
+        min-width: 44px;
+        padding: 0;
       }
     }
   }
