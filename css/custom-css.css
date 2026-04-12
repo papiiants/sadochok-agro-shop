@@ -54,10 +54,10 @@ header {
 
     .menu_group__list {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       flex: 1 0 auto;
-      gap: 10px;
+      gap: 20px;
 
       li {
         a {
