@@ -1,5 +1,25 @@
+:root {
+  --color-green-400: #93C83E;
+  --color-green-600: #2F9D27;
+
+  --color-yellow-400: #EAD21E;
+
+  --color-black-900: #1C1A1B;
+
+
+  --font-title: 'Alice', serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+
 #comparison,
 .comparison_button,
 .product-page__compare {
   display: none !important;
+}
+
+header {
+  .header__top {
+    background-color: var(--color-green-600);
+  }
 }
