@@ -129,7 +129,7 @@
                             {* Wishlist informer *}
                             <div id="wishlist" class="header_informers__item d-flex align-items-center justify-content-center">{include file="wishlist_informer.tpl"}</div>
                             {* Comparison informer *}
-                            <div id="comparison" class="header_informers__item d-flex align-items-center justify-content-center">{include "comparison_informer.tpl"}</div>
+<!--                            <div id="comparison" class="header_informers__item d-flex align-items-center justify-content-center">{include "comparison_informer.tpl"}</div>-->
                             {* Cart informer*}
                             <div id="cart_informer" class="header_informers__item d-flex align-items-center justify-content-center">{include file='cart_informer.tpl'}</div>
                         </div>
