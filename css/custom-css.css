@@ -65,7 +65,7 @@ header {
 
 footer.footer {
   padding-top: var(--padding-y);
-  background-color: var(--color-green-900);
+  background-color: var(--color-green-800);
 
   .footer__copyright {
     background-color: var(--color-black-600);
