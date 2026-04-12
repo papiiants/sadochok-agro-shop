@@ -1,7 +1,11 @@
 :root {
-  --color-green-400: #93C83E;
-  --color-green-600: #2F9D27;
-  --color-green-800: #1F6D1B;
+  --color-green-600: #89da59;
+  --color-green-800: #60b32e;
+  --color-green-900: #4e9326;
+
+  --color-beige-100: #fbd197;
+
+  --color-orange-400: #f79a1d;
 
   --color-yellow-400: #EAD21E;
 
@@ -26,17 +30,42 @@
 
 header {
   .header__top {
-    background-color: var(--color-green-600);
+    background-color: var(--color-green-800);
+  }
+
+  .header__center {
+    .header__logo {
+      flex: 1 0 auto;
+      max-width: 100%;
+
+      .logo__link {
+        width: 100%;
+        padding: 0;
+      }
+    }
   }
 
   .header__menu {
     font-family: var(--font-title);
+
+    .menu_group__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+
+      li {
+        a {
+          padding: 20px 5px;
+        }
+      }
+    }
   }
 }
 
 footer.footer {
   padding-top: var(--padding-y);
-  background-color: var(--color-green-800);
+  background-color: var(--color-green-900);
 
   .footer__copyright {
     background-color: var(--color-black-600);
