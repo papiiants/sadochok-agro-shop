@@ -5,6 +5,7 @@
   --color-yellow-400: #EAD21E;
 
   --color-black-900: #1C1A1B;
+  --color-black-600: #42453D;
 
 
   --font-title: 'Alice', serif;
@@ -21,5 +22,14 @@
 header {
   .header__top {
     background-color: var(--color-green-600);
+  }
+}
+
+footer.footer {
+  background-color: var(--color-green-600);
+
+  .footer__copyright {
+    background-color: var(--color-black-600);
+    border-top: none;
   }
 }
