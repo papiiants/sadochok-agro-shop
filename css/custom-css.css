@@ -28,6 +28,10 @@ header {
   .header__top {
     background-color: var(--color-green-600);
   }
+
+  .header__menu {
+    font-family: var(--font-title);
+  }
 }
 
 footer.footer {

@@ -147,7 +147,7 @@
 {/if}
 
 {* Last_posts *}
-{get_posts var=last_posts limit=4 category_id=1}
+{get_posts var=last_posts limit=4 category_id=4}
 {if $last_posts}
     <div class="main-articles container">
         <div class="block block--boxed block--border">
