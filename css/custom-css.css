@@ -67,6 +67,18 @@ header {
       }
     }
   }
+
+  .header__bottom_panel {
+    gap: 10px;
+
+    .header_informers {
+      gap: 10px;
+
+      .header_informers__item {
+        max-width: 44px;
+      }
+    }
+  }
 }
 
 footer.footer {
