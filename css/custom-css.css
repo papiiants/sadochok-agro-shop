@@ -31,11 +31,8 @@ header {
 }
 
 footer.footer {
+  padding-top: var(--padding-y);
   background-color: var(--color-green-800);
-
-  .container {
-    padding-block: var(--padding-y);
-  }
 
   .footer__copyright {
     background-color: var(--color-black-600);
