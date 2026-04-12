@@ -1,11 +1,16 @@
 :root {
   --color-green-400: #93C83E;
   --color-green-600: #2F9D27;
+  --color-green-800: #1F6D1B;
 
   --color-yellow-400: #EAD21E;
 
   --color-black-900: #1C1A1B;
-  --color-black-600: #42453D;
+  --color-black-600: #2D2F2B;
+
+
+  --padding-y: 40px;
+  --padding-x: 20px;
 
 
   --font-title: 'Alice', serif;
@@ -26,10 +31,19 @@ header {
 }
 
 footer.footer {
-  background-color: var(--color-green-600);
+  background-color: var(--color-green-800);
+
+  .container {
+    padding-block: var(--padding-y);
+  }
 
   .footer__copyright {
     background-color: var(--color-black-600);
     border-top: none;
   }
+}
+
+.fn_to_top.to_top {
+  left: auto;
+  right: 2%;
 }
